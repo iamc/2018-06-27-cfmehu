@@ -199,6 +199,22 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
+
+<!--
+  REGISTRATION
+
+  Registration information prior to open public eventbrite.
+
+-->
+<h2 id="registration">Registration</h2>
+
+
+Registration will open on May the 31st. Assistance is limited to 40 people.
+
+
+<hr/>
+
+
 <!--
   SPONSORS
 -->
