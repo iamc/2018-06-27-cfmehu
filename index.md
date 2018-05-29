@@ -270,8 +270,7 @@ This workshop is possible thanks to the contributions of
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule</h2>
-
+<h2 id="schedule">Schedule (tentative)</h2>
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
