@@ -199,6 +199,34 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
+<!--
+  SPONSORS
+-->
+<h2 id="sponsors">Sponsors</h2>
+<p>
+This workshop is possible thanks to the contributions of
+</p>
+
+<div class="sponsor-logos">
+  <p>
+  <a href="http://dipc.ehu.es" title="Donostia International Physics Center">
+    <img style="margin-right:50px" alt="DIPC" src="img/dipc-logo.png" />
+  </a>
+  </p>
+ <!--
+  <a href="https://www.python.org/psf" title="Python Software Foundation">
+    <img alt="PSF" src="img/psf-logo.png"/>
+  </a>
+  <br>
+  <a href="http://www.bcbl.eu" title="Basque Center on Cognition, Brain and Language">
+    <img alt="BCBL" src="img/bcbl-logo.png" />
+  </a>
+ -->
+</div>
+
+
+<hr/>
+
 {% comment %} 
  SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
