@@ -233,11 +233,11 @@ This workshop is possible thanks to the contributions of
   <a href="https://www.python.org/psf" title="Python Software Foundation">
     <img alt="PSF" src="img/psf-logo.png"/>
   </a>
+ -->
   <br>
   <a href="http://www.bcbl.eu" title="Basque Center on Cognition, Brain and Language">
     <img alt="BCBL" src="img/bcbl-logo.png" />
   </a>
- -->
 </div>
 
 
