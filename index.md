@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Materials Physics Center - University of the Basque Country"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "UPV/EHU Ibaeta Campus, San Sebastian - Donostia"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "<a href=https://www.ehu.eus/es/web/gipuzkoa/elbira-zipitria-zentroa>Elbira Zipitria Center</a>, room 0.01, UPV/EHU Ibaeta Campus, San Sebastian - Donostia"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "es"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "43.313143,-2.009393"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
@@ -101,7 +101,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
-  {{page.address}}.
+<a href="https://www.ehu.eus/es/web/gipuzkoa/elbira-zipitria-zentroa">Elbira Zipitria Center</a>, room 0.01, UPV/EHU Ibaeta Campus, San Sebastian - Donostia.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
