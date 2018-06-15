@@ -286,12 +286,10 @@ This workshop is possible thanks to the contributions of
   <a href="http://dipc.ehu.es" title="Donostia International Physics Center">
     <img style="margin-right:50px" alt="DIPC" src="img/dipc-logo.png" />
   </a>
-  </p>
- <!--
-  <a href="https://www.python.org/psf" title="Python Software Foundation">
-    <img alt="PSF" src="img/psf-logo.png"/>
+  <a href="http://www.ipm.es/certificaciones/dell-emc-partner" title="IPM - DELL EMC">
+    <img alt="IPM-DELL_EMC" src="img/DELL-IPM-logo-2.png"/>
   </a>
- -->
+  </p>
   <br>
   <a href="http://www.bcbl.eu" title="Basque Center on Cognition, Brain and Language">
     <img alt="BCBL" src="img/bcbl-logo.png" />
