@@ -667,7 +667,25 @@ See the lessons links below for the reference material we will be using along th
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the <strong>Python 3.6</strong> installer for Windows.</li>
-        <li>Install Python 3 using all of the defaults for installation.</li>
+        <li>Run the installer and follow the steps below:</li>
+        <ol>
+            <li>Click on "I Agree" to agree the License Terms.</li>
+           <li>
+                Keep <strong>"Just Me (recommended)"</strong> selected and click on "Next".
+           </li>
+           <li>
+                Keep default destination folder and click on "Next".
+           </li>
+           <li>
+              <strong>
+	        <img alt="Warning!" src="img/alert.png" />
+		<span style="text-decoration: underline;">Select both</span> "Add Anaconda to my PATH environment variable" and "Register Anaconda as my default Python 3.6" and click on "Next".
+              </strong>
+           </li>
+           <li>
+              Click on "Install".
+           </li>
+        </ol> 
         <li>Reboot Windows.</li>
       </ol>
     </div>
