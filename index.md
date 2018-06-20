@@ -668,6 +668,7 @@ See the lessons links below for the reference material we will be using along th
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the <strong>Python 3.6</strong> installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
+        <li>Reboot Windows.</li>
       </ol>
     </div>
     <div class="col-md-4">
