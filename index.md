@@ -424,43 +424,51 @@ See the lessons links below for the reference material we will be using along th
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
-
+  
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+<div class="alert alert-warning">
+       Beware of the <img alt="Warning!" src="img/alert.png" /> signs!  It shows changes from the installer default options.  Should you forgot to change these options the programs that you need for the workshop will not work properly.
+                If this happens rerun the installer and select the appropriate option.
+</div>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
-            {% comment %} Git 2.8.2 Setup {% endcomment %}
-            {% comment %} Information {% endcomment %}
+            {% comment %} Git 2.17.1.2 Setup {% endcomment %}
+            {% comment %} GLP agreement {% endcomment %}
             <li>Click on "Next".</li>
             {% comment %} Select Components {% endcomment %}
-            <li>Click on "Next".</li>
+            <li>Keep default options and click on "Next".</li>
+            {% comment %} Choosing the default editor used by Git{% endcomment %}
+            <li>
+              <strong>
+	        <img alt="Warning!" src="img/alert.png" />
+		<span style="text-decoration: underline;">Select</span> "Use the Nano editor by default" from the dropdown list and click on "Next".
+              </strong>
+            </li>
             {% comment %} Adjusting your PATH environment {% endcomment %}
             <li>
-              <strong>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
-              </strong>
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
+                Keep <strong>"Use Git from the Windows Command Prompt"</strong> selected and click on "Next".
             </li>
-            {% comment %} Choosing the SSH executable {% endcomment %}
-            <li>Click on "Next".</li>
+            {% comment %} Choosing HTTPS transport backend {% endcomment %}
+            <li>
+                Keep <strong>"Use the OpenSSL library"</strong> selected and click on "Next".
+            </li>
             {% comment %} Configuring the line ending conversions {% endcomment %}
             <li>
-              <strong>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
-              </strong>
+                Keep <strong>"Checkout Windows-style, commit Unix-style line endings"</strong> selected and click on "Next".
             </li>
             {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
             <li>
               <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
+	        <img alt="Warning!" src="img/alert.png" />
+		<span style="text-decoration: underline;">Select</span> "Use Windows' default console window" and click on "Next".
               </strong>
             </li>
-            {% comment %} Configuring experimental performance tweaks {% endcomment %}
+            {% comment %} Configuring extra options {% endcomment %}
+            <li>Keep default options and click on "Next".</li>
             <li>Click on "Install".</li>
             {% comment %} Installing {% endcomment %}
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
@@ -579,22 +587,8 @@ See the lessons links below for the reference material we will be using along th
   <div class="row">
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
-        download the <a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows installer
-	</a>
-        and double click on the file to run it.
-        <strong>This installer requires an active internet connection.</strong>
+        nano is a  basic editor and the default that instructors use in the workshop. It should be installed on your computer as part of your Bash install (described above).
       </p>
       <p>
         Others editors that you can use are
@@ -672,8 +666,8 @@ See the lessons links below for the reference material we will be using along th
       <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
-        <li>Download the Python 3 installer for Windows.</li>
-        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
+        <li>Download the <strong>Python 3.6</strong> installer for Windows.</li>
+        <li>Install Python 3 using all of the defaults for installation.</li>
       </ol>
     </div>
     <div class="col-md-4">
@@ -681,7 +675,7 @@ See the lessons links below for the reference material we will be using along th
       <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#macos">https://www.anaconda.com/download/#macos</a> with your web browser.</li>
-        <li>Download the Python 3 installer for OS X.</li>
+        <li>Download the <strong>Python 3.6</strong> installer for OS X.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
       </ol>
     </div>
@@ -689,7 +683,7 @@ See the lessons links below for the reference material we will be using along th
       <h4 id="python-linux">Linux</h4>
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#linux">https://www.anaconda.com/download/#linux</a> with your web browser.</li>
-        <li>Download the Python 3 installer for Linux.<br>
+        <li>Download the <strong>Python 3.6</strong> installer for Linux.<br>
           (The installation requires using the shell. If you aren't
            comfortable doing the installation yourself
            stop here and request help at the workshop.)
