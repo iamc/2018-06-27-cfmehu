@@ -416,6 +416,10 @@ See the lessons links below for the reference material we will be using along th
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+<div class="alert alert-warning">
+       Beware of the <img alt="Warning!" src="img/alert.png" /> sign!  It shows changes from the installer default options.  Should you forget to change these options, the programs that you need for the workshop will not work properly.
+                If this happens rerun the installer and select the appropriate option.
+</div>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
@@ -428,10 +432,6 @@ See the lessons links below for the reference material we will be using along th
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
-<div class="alert alert-warning">
-       Beware of the <img alt="Warning!" src="img/alert.png" /> signs!  It shows changes from the installer default options.  Should you forgot to change these options the programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
-</div>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
